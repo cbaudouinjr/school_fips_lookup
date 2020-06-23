@@ -5,8 +5,8 @@ Author: Chris Baudouin, Jr <cbaudouinjr@mail.rit.edu>
 import os
 import requests
 
-SCHOOLS_INPUT_FILE = "schools.csv"
-SCHOOLS_OUTPUT_FILE = "schools_with_fips.csv"
+SCHOOLS_INPUT_FILE = ""
+SCHOOLS_OUTPUT_FILE = ""
 
 GC_API_KEY = os.environ.get('GC_API_KEY')
 checked_schools = {}  # Used to remove any possible duplicate schools
